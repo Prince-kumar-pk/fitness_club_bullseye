@@ -1,0 +1,82 @@
+body{
+  background-image: url('https://cdn.pixabay.com/photo/2014/04/24/17/56/fitness-studio-331569__340.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+.form-wrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+
+form {
+    width:500px;
+    height: auto;
+    /* border: 2px solid red; */
+    /* background-color: rgb(255, 255, 255); */
+    background: rgb(238,174,202);
+background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+label{
+    font-size: 30px;
+    align-items: center;
+    display: none;
+}
+input{
+    height: 20px;
+    padding: 10px;
+    width: 77%;
+}
+
+button {
+    width: auto;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* padding: 5px; */
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 20px;
+    background-color: rgb(66, 64, 64);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #bcc1bf;
+    box-shadow: 0px 15px 20px rgb(148 152 150 / 40%);
+    color: #fff;
+    transform: translateY(-3px);
+  }
+
+
+
+ul{
+    width: auto;
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gray;
+    background-color: gray;
+}
