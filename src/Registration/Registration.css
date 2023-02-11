@@ -78,5 +78,6 @@ ul{
     justify-content: space-between;
     align-items: center;
     border: 2px solid gray;
-    background-color: gray;
+    background-color: #dcbebe;
+    height: 46px;
 }
